@@ -146,7 +146,9 @@ const openWhatsApp = (packageName?: string) => {
     ? `Halo, saya tertarik dengan ${packageName} untuk sertifikasi halal. Bisa tolong berikan informasi lebih lanjut?`
     : `Halo, saya tertarik untuk mendapatkan sertifikasi halal untuk produk saya. Bisa tolong berikan informasi lebih lanjut?`;
 
-  const whatsappUrl = `https://wa.me/628?text=${encodeURIComponent(message)}`;
+  const whatsappUrl = `https://wa.me/6285172268408?text=${encodeURIComponent(
+    message
+  )}`;
   window.open(whatsappUrl, '_blank');
   isMobileMenuOpen.value = false;
 };
